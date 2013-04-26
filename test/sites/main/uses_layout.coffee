@@ -4,4 +4,4 @@ module.exports= (req,res,next)->
 
 module.exports.meta= (prev)->
   ext_malifi_marked_options_: ''
-  ext_malifi_marked_layout_path_: '/layout'
+  ext_malifi_marked_layout_path_: '/layout_'
