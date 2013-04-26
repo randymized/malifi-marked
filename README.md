@@ -2,7 +2,7 @@ malifi-marked
 ===========
 
 Adds [marked](https://github.com/chjj/marked) markdown processing to [Malifi](https://github.com/randymized/malifi).
-Please note that because the result is an HTML fragment that is missing doctype, html and body, this project may be of limited utility.
+Please note that because the result is an HTML fragment that is missing doctype, html and body, use in conjunction with a layout is advised.
 
 Usage:
 In the metadata `template_map_` object for the target MIME type, map file extension(s) to `malifi-marked`.
