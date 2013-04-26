@@ -13,9 +13,11 @@ module.exports= marked_renderer=
         when_compiled(err)
       else
         try
-          options= req.malifi.meta.ext_malifi_marked_options_ || {}
+          meta= req.malifi.meta
+          options= meta.ext_malifi_marked_options_ || {}
           html= marked(template,options)
           when_compiled null,
+            layout_path: meta.ext_malifi_marked_layout_path_
             render: (context,done)->
               done(null, html)
         catch err

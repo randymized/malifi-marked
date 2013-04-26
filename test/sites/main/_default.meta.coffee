@@ -1,3 +1,4 @@
+malifi= require 'malifi'
 malifi_marked= require '../../../index'
 
 module.exports=
@@ -5,4 +6,5 @@ module.exports=
     'text/html': [
       ['md', malifi_marked]
       ['markdown', malifi_marked]
+      ['html', malifi.underscore_renderer]
     ]
