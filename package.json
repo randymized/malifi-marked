@@ -1,8 +1,8 @@
 {
   "name": "malifi-marked",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds marked template support to Malifi",
-  "main": "index.js",
+  "main": "index",
   "repository": {
     "type": "git",
     "url": "https://github.com/randymized/malifi-marked.git"
@@ -15,7 +15,6 @@
     "malifi": "0.x.x",
     "mocha": "1.6.x"
   },
-  "main": "index",
   "engines": {
     "node": ">= 0.6.0"
   },
@@ -24,10 +23,6 @@
   },
   "scripts": {
     "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/randymized/malifi-marked.git"
   },
   "author": "Randy McLaughlin <8b629a9884@snkmail.com>",
   "license": "MIT",
