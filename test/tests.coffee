@@ -56,3 +56,5 @@ describe 'Malifi', ->
     get('/marked',"<p>hello <strong>world</strong>!</p>\n", done)
   it 'should render a markdown document using a layout', (done) ->
     get('/with_layout/named',"<dl><dt>Name:</dt><dd>testing</dd><dt>Body:</dt><dd><p>hello <strong>world</strong>!</p>\n</dd></dl>", done)
+  it 'demonstrates a bare template that is rendered using a layout', (done) ->
+    get('/with_layout/unnamed',"<dl><dt>Name:</dt><dd>no name!</dd><dt>Body:</dt><dd><p>hello <strong>you</strong>!</p>\n</dd></dl>", done)
