@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Adds marked template support to Malifi",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/randymized/malifi-marked.git"
+  },
   "dependencies": {
     "marked": "0.2.x",
     "coffee-script": "1.6.x"
