@@ -1,7 +1,7 @@
 malifi-marked
 ===========
 
-Adds marked (https://github.com/chjj/marked) markdown processing to Malifi.
+Adds [marked](https://github.com/chjj/marked) markdown processing to [Malifi](https://github.com/randymized/malifi).
 Please note that because the result is an HTML fragment that is missing doctype, html and body, this project may be of limited utility.
 
 Usage:
