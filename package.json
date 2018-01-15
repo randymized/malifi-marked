@@ -8,12 +8,13 @@
     "url": "https://github.com/randymized/malifi-marked.git"
   },
   "dependencies": {
-    "marked": "0.2.x",
+    "marked": "~> 0.3.9",
     "coffee-script": "1.6.x"
   },
   "devDependencies": {
     "malifi": "0.x.x",
-    "mocha": "1.6.x"
+    "mocha": "1.6.x",
+    "should": "^13.2.1"
   },
   "engines": {
     "node": ">= 0.6.0"
